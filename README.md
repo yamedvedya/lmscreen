@@ -8,15 +8,15 @@ The server is better to use with the CameraViewer utility.
 ###Properties:
 Beamline: name of the beamline: P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P21a, P21b, P22, P23, P24, P25, P61, P62, P63, P64, P65, P66
 
-Screen: LM Screen number: 1, 2, etc. 
+*__Screen__*: LM Screen number: 1, 2, etc. 
 
-List of accessible screens is here
+List of accessible screens is down
 
-Flip_V: If 1- image will be flipped vertically
+*__Flip_V__*: If 1- image will be flipped vertically
 
-Flip_H: If 1- image will be flipped horizontally
+*__Flip_H__*: If 1- image will be flipped horizontally
 
-Rotate: define the rotation angle in 90 deg steps (!!). E.g. Rotate_Angle = 3 means 270 deg rotation
+*__Rotate__*: define the rotation angle in 90 deg steps (!!). E.g. Rotate_Angle = 3 means 270 deg rotation
 
 ###Operation:
 The analysis is performed in the rectangle, defined by roi_x, roi_y, roi_w, roi_h attributes. In case if the roi_w, roi_h are 0 - the whole picture is analyzed.
